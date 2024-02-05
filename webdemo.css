@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.first {
+    width: 100vw;
+    height: 7vh;
+    background-color: rgb(12, 12, 12);
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0%;
+    z-index: 2;
+
+}
+
+.logo {
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 90px;
+    
+
+}
+
+.logo img {
+    /* width: 50px;
+    height: 5vh; */
+    border-radius: 50%;
+}
+
+.logop {
+    /* color: white; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 19px;
+    position: relative;
+    left: 10px;
+    color: rgb(199, 30, 30);
+
+
+}
+
+.menu {
+    width: 30%;
+}
+
+.menu ul {
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-evenly;
+    position: relative;
+    left: 350px;
+}
+
+.menu ul li {
+    list-style-type: none;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: rgb(158, 148, 148);
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: relative;
+    top: 8px;
+}
+
+.btn {
+    width: 8.5%;
+    height: 5vh;
+    position: relative;
+    left: 350px;
+    border-radius: 40px;
+    border: none;
+    color: rgb(239, 13, 13);
+    font-size: 14px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font: bolder;
+    cursor: pointer;
+}
+
+.line {
+    width: 100vw;
+    height: 5px;
+    background-color: rgb(133, 57, 57);
+    /* top: 120px; */
+}
+
+.second {
+    width: 100vw;
+    height: 90vh;
+    background-color: rgb(43, 39, 40);
+    display: flex;
+    position: relative; 
+    /* left: 105px;*/
+    top: 47px;
+}
+
+.sec1 {
+    width: 27%;
+    height: 67%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* justify-content: center; */
+    position: relative;
+    left: 95px;
+    top: 95px;
+    /* background-color: rgb(30, 39, 36); */
+}
+
+.sec1 h4 {
+    font-family: 'Segoe UI', "Helvetica neue", "lucida grande", ubuntu;
+    font-style: italic;
+    font-size: 25px;
+    color: rgb(188, 10, 10);
+    }
+
+.sec1 h1 {
+    font-size: 43px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    }
+
+.sec1 p {
+    color: white;
+    font-size: 14px;
+    align-items: flex-start;
+}
+
+.sec2 {
+    width: 25%;
+    /* height: 20%; */
+}
+
+.sec2 img {
+    display: flex;
+    position: relative;
+    left: 90px;
+    top: 220px;
+    /* border-radius: 75%; */
+}
+
+.sec3 {
+    width: 27%;
+    height: 67%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: relative;
+    left: 150px;
+    top: 95px;
+    /* background-color: rgb(42, 44, 44); */
+}
+
+.sec3 h4 {
+    font-family: 'Segoe UI', "Helvetica neue", "lucida grande", ubuntu;
+    font-style: italic;
+    font-size: 25px;
+    color: rgb(188, 10, 10);
+}
+
+.sec3 h1 {
+    font-size: 43px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+.sec3 p {
+    color: white;
+    font-size: 14px;
+    /* display: flex; */
+    /* align-items:flex-end; */
+    text-align: end;
+}
+
+
+.btn1 {
+    width: 10vw;
+    height: 5vh;
+    font-size: 11px;
+    font-weight: bold;
+    background-color: rgb(211, 13, 13);
+    color: white;
+    border-color: none;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.break{
+    width: 100vw;
+    height: 8vh;
+    background: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
