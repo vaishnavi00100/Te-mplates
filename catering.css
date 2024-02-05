@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    }
+ .menu{
+    display:flex;
+    width: 100vw;
+    height: 7vh;
+    background-color: rgba(245, 230, 211, 0.852);
+    position: fixed;
+    z-index: 2;
+ }
+ .menu b{
+    width: 50%;
+    height: 7vh;
+    display: flex;
+    position: relative;
+    left: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 19px;
+    color: rgb(95, 67, 56);
+    /* background-color: blueviolet;  */
+    align-items: center;
+ }    
+
+ .menu ul{
+    width: 50%;
+    height: 7vh;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    left: 80px;
+    align-items: center;
+ }
+
+.menu ul li{
+    list-style-type: none;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(95, 67, 56);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight:500;
+}
+
+img{
+    width: 100vw;
+    height: 90vh;
+    position: relative;
+    top: 49px;
+}
+
+.img1{
+    position: relative;
+    left: 130px;
+    top: 130px;
+}
+
+h2{
+    display: inline;
+    position: relative;
+    top: -320px;
+    left: 290px;
+    font-size: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(194, 159, 112);
+    font-style: italic;
+    
+}
+
+b1{ 
+     display: inline;
+    position: relative;
+    top: -260px;
+    left: 110px;
+    font-size: 18px;
+    color: rgb(113, 83, 43);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p{
+    width: 40vw;
+    height: 70vh;
+    display: flex;
+    position: relative;
+    left: 590px;
+    top: -240px;
+    font-size: 16.5px;
+    color: rgb(86, 72, 56);
+    font-family:'Times New Roman', Times, serif;
+}
+h1{
+    display: flex;
+    position: relative;
+    left: 370px;
+    top: -150px;
+    font-size: 45px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(72, 60, 44);
+}
+.grid1{
+    width: 50vw;
+    height: 70vh;
+    display: grid;
+    /* display: flex; */
+    position: relative;
+    left: 230px;
+    top: -80px;
+    grid-template-rows: auto;
+    gap: 4px;
+}
+.grid1 b{
+    display: grid;
+}
+
+.img2{
+    display: inline;
+    position: relative;
+    left: 640px;
+    top: -650px;
+}
+
+h4{
+    display: inline;
+    font-size: 30px;
+    position: relative;
+    top: -550px;
+    left: 100px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(113, 50, 50);
+}
+.grid2{
+    width: 70vw;
+    gap: 45px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    position: relative;
+    left: 100px;
+    top: -500px;
+    
+}
+.gr2 b{
+    display: grid;
+    align-items: center;
+    /* justify-content: center; */
+    position: relative;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    top: 60px;
+    font-size: 16px;
+    }
+.gr2 b1{
+    display: flex;
+    position: relative;
+    color: rgb(186, 128, 57);
+    top: 80px;
+    left: -7px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 14px;
+}
